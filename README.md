@@ -26,8 +26,8 @@ Tags (with open and end tag)
       16.<del>..</del>//cuts the text that looks like text is crossed with line //
 
 
-Tags(without end tag)
-       1.<hr>....//Creates a horizontal line 
-       2.<hr color="blue" size ="15"/>//To modify the line colour and width //
-       3.<!--........-->//Used to give comment in html file //
-       4.<br />//Gives a break that is it transfers all next content into nrw line //
+    Tags(without end tag)
+         1.<hr>....//Creates a horizontal line 
+         2.<hr color="blue" size ="15"/>//To modify the line colour and width //
+         3.<!--........-->//Used to give comment in html file //
+         4.<br />//Gives a break that is it transfers all next content into nrw line //
