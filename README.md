@@ -30,6 +30,18 @@ Tags (with open and end tag)
       20.<li>..</li>//specifies that te text inside is an element in the list specified above //
       21.<ul>..</ul>//specifies the begining of an unordered list//
       22.<a href="...">...</a>//used to add rrfrence or link //
+      23.<table>....</table> //heading for creating a table or defining a table  // (eg.<table><tr><th>...</th><th>...</th></tr> <tr><td>..</td><td>...</td></tr></table>)
+      24.<tr>..</tr>// table is divided into table rows using this //
+      25.<th>..</th>// used to define a bold heading for each column //
+      26.<td>...</td> // creates an coulm in a particular row that means it defines a data cell //
+      27.<a href="...">...</a> //adds a go-to page or link to the specigied text or image // 
+      28.<div>..</div> //creates a section in the page used to put a background in other tags inside of it //
+      29.<form>...</form>//Used to define forms //
+      30.<textarea name="message"></textarea> //Creates a text area where we can add messages ,feedback,comments,etc.
+      31.<font>..</font> //used to add specification on the text inside its tag//
+      32.<progress ...></progress>//used to create a partially filled box to show the level or percentage //
+      33.<iframe ...></iframe>//
+
 
     Tags(without end tag)
          1.<hr>....//Creates a horizontal line 
@@ -38,7 +50,8 @@ Tags (with open and end tag)
          4.<br />//Gives a break that is it transfers all next content into nrw line //
          5.<DOCTYPE html>//used to tell brower the version of html to expect//
          6.<img src = "..."/>//used to add an image with link inside the tag//
-
+         7.<input ... />//Used to get the input from used//
+ 
 
      Html(Attributes)
          1.<p align="left/right/center/justify">...</p>//decides the position of the text //
@@ -50,3 +63,23 @@ Tags (with open and end tag)
          7.<ol type="A/a/i/I">..</ol>//specifies the type of list to be made like (A,B,C) or (a,b,c)or (i,ii,iii ), (I,II,III) with default as numbers (1,2,3)//
          8.<ul type="square/circle/bullets">..</ul>//specifies the type of list to be made with default as disc//
          9.<li style="color:=red/green/blue;">....</li>
+         10.<table border="2" bordercolor="blue" style="width:50%">...</table>// add a thick border around the table and adds a color to the border and width of the table //
+         11.<td rowspan="2" colspan="2">...</td> // to make a cell span more than one row or colom rowspan or colspan is used //
+         12.<td bgcolor="red">...</td>//adds background color to the cells//
+         13.<a href="..." target="_blank/self/parent/top/framename">...</a>//Decided the tab in which the link opens either (_blank=new tab/self=same window/parent =parent                 frame/top=topmost frame)
+         14.<div style="background-color:green; color:white; padding:20px;">...</div>//Used to colour the background and the text of all tags which are inside it (eg:-<p>,                 <h>,etc.)
+        15.<h2>..<span style="color:red">...</span>....</h2>//changes the colour of the pard of h2 which lies inside span to red //
+        16.<form action=" link "></form> //action attribute is used to point to a webpage that will load after the used submits the form//
+        17.<form method="GET/POST">..</form>//method attribute decides the method to be used after the forms are submitted that is the data you enter should be visible like              username or be hidden like password//
+        18.<form><input type="text/password/radio/url/submit/checkbox,etc." name="what is the subject .." value=" choice a"/>text you want to show in the user </form> //input            type defines the type of data to accept and name attribute specifies the name for the form and value attribute gives the name of the choice on the right of the empty             space and is submited to the excel sheet you are saving the data in //
+        19.<input type="submit" /> //creates a button with submit written on it to submit your input//
+        20.<textarea maxlength="100"></textarea> //adds a limit to the size of the text allowed //
+        21.<body bgcolor="#000009">..</body>//Adds color to the background section //
+        22.<font color="#0000FF">....</font>//adds color to text inside the font //
+        23.<progress min="0" max="100" value ="80"></progress>//Creates a 80% filled rectancle box showing the content filled // 
+
+
+    (Important Differentiantion Groups of Tags)
+        1.Block level Elements:-elements which start from a new line (eg:-<h1>,<form>,<li>,<ol>,<ul>,<p>,<pre>,<table>,<div>,etc.)
+        2.Inline Elements:-these elements are normally displayed without line break and used to edit part of a text (eg:-<b>,<a>,<strong>,<img>,<input>,<em>,<span>,etc.)
+  
