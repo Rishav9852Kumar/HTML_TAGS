@@ -25,7 +25,7 @@ Tags (with open and end tag)
       15.<ins>...</ins>//inserts a underline in the text //
       16.<del>..</del>//cuts the text that looks like text is crossed with line //
       17.<em>...</em>//makes the text italic and indicates that the text is important//
-      18.<spam>..</spam>//
+      18.<spam>..</spam>//used to edit the stle of a section of a bigger tag //
       19.<ol>..</ol>//specifies that an ordered list is coming //
       20.<li>..</li>//specifies that te text inside is an element in the list specified above //
       21.<ul>..</ul>//specifies the begining of an unordered list//
